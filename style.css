@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.oyun{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    padding: 50px;
+}
+
+.h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rules {
+    font-size: 22px;
+    
+}
+
+.element{
+    text-align: center;
+    margin-top: 12vh;
+}
+
+#input {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#button {
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: brown;
+    cursor: pointer;
+}
