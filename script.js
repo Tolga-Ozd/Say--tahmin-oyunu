@@ -33,9 +33,12 @@ const counterr = () => {
     if (counter > 0) {
       hakkim.innerHTML = `${counter} hakkiniz kaldı`;
       input.focus();
+      
     } else {
-      hakkim.innerHTML = `hakkiniz kalmadı`;
+      pWrite.remove() 
+      hakkim.innerHTML = `Hakkiniz Kalmadı`;
       input.disabled = true;
+     
     }
   };
   
